@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<title>Conversor de câmbio</title>
+	<link rel="stylesheet" type="text/css" href="estilo.css"/>
+    <script type="text/javascript" src="funcoes.js"></script>
+</head>
+<body>
+<div id="principal">
+    <div class="divselect">
+        <form id="formulario">
+            <select id="seletor1" nome="seletor1">
+                <option value="0" selected="">DÓLAR</option>
+                <option value="1">REAL</option>
+                <option value="2">EURO</option>
+                <option value="3">LIBRA</option>
+                <option value="4">IENE</option>
+            </select>
+            <select id="seletor2" nome="seletor2">
+                <option value="0">DÓLAR</option>
+                <option value="1" selected="">REAL</option>
+                <option value="2">EURO</option>
+                <option value="3">LIBRA</option>
+                <option value="4">IENE</option>
+            </select>
+            <img src="imagens/botao.png" width="35" onclick="trocaMoeda()" title="Inverter Moedas">
+            <button id="converter" type="button" onclick="converterMoeda()">Converter</button >
+            <input type="number" id="montante" name="montante"></input>
+            <input id="resultado" type="number" name="resultado" disabled=""></input>
+        </form>
+    </div>
+</div>
+</body>
+</html>

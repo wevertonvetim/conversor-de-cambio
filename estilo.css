@@ -1,0 +1,101 @@
+body{
+    width: 800px;
+    height: 800px;
+	color:rgba(0,0,0,0.8);
+    position:relative;
+}
+
+div#principal{
+    width: 600px;
+    height:400px;
+    left: 350px;
+    top:100px;
+	box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+	padding: 10px;
+    position:absolute;
+}
+select#seletor1{ /* <select> */
+    width: 240px;
+    height: 40px;
+    overflow: hidden;
+    position:absolute;
+    border-radius:20px;
+    padding: 5px;
+    font-size: 16px;
+    color:black;
+    border: 2px solid BLACK;
+    -webkit-appearance: none;
+    position:absolute;
+    top:90px;
+    left: 20px;
+}  
+
+select#seletor2{
+    width: 240px;
+    height: 40px;
+    overflow: hidden;
+    position:absolute;
+    color:BLACK;
+    border-radius:20px;
+    padding: 5px;
+    font-size: 16px;
+    border: 2px solid BLACK;
+    -webkit-appearance: none;
+    position:absolute;
+    top:90px;
+    right:20px;
+}
+.divselect{
+    width: 700px;
+    height:500px;
+}
+#converter{
+    width: 100px;
+    height:30px;
+    border-radius:20px;
+    background-color: #A9A9A9;
+    position:absolute;
+    right:260px;
+    top:200px;
+    color: #ffffffff;
+}
+div#principal form img{
+    width: 50px;
+    height:50px;
+    border-radius:100px;
+    color: #ffffffff;
+    background-color: #A9A9A9;
+    position:absolute;
+    right:285px;
+    top:90px
+}
+.divselect button:hover{
+  background-color: #696969;
+}
+#montante{
+    width: 200px;
+    height: 20px;
+    overflow: hidden;
+    position:absolute;
+    border-radius:20px;
+    padding: 5px;
+    font-size: 16px;
+    border: 1 solid BLACK;
+    position:absolute;
+    top:200px;
+    left: 20px;
+}
+#resultado{
+    width: 200px;
+    height: 20px;
+    overflow: hidden;
+    position:absolute;
+    background: transparent;
+    border-radius:20px;
+    padding: 5px;
+    font-size: 16px;
+    border: 1 solid;
+    position:absolute;
+    top: 200px;
+    right: 20px;
+}
